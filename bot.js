@@ -739,7 +739,7 @@ const BATMANNINJAJOKER = new Discord.RichEmbed()
   
 
  if (message.content.startsWith(prefix + "clap"))  {
-   var menos=message.cleanContent.replace("cb!clap", "")
+   var menos=message.cleanContent.replace("j!clap", "")
     var clappy= menos.toUpperCase().replace(/ /g," :clap: ")
 message.channel.sendMessage(clappy + " :clap: ");
 }
