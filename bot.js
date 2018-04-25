@@ -729,7 +729,7 @@ const BATMANNINJAJOKER = new Discord.RichEmbed()
        if (message.content.includes("batman ninja"))  {
        
         if (message.content.includes("number"))  {
-            message.channel.sendMessage("This category currently has" + numberofninjapics + "pictures") }
+            message.channel.sendMessage("The **Batman Ninja** category currently has **" + numberofninjapics + "** Joker pictures") }
         else message.channel.sendEmbed(BATMANNINJAJOKER) 
        }   
     else message.channel.sendEmbed(BATMANNINJAJOKER);
