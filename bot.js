@@ -729,9 +729,9 @@ const BATMANNINJAJOKER = new Discord.RichEmbed()
        if (message.content.includes("batman ninja"))  {
        
         if (message.content.includes("number"))  {
-            message.channel.sendMessage("This category currently has" + numberofninjapics + "pictures");
-            else message.channel.sendEmbed(BATMANNINJAJOKER);
-}  
+            message.channel.sendMessage("This category currently has" + numberofninjapics + "pictures") }
+        else message.channel.sendEmbed(BATMANNINJAJOKER) 
+       }   
     else message.channel.sendEmbed(BATMANNINJAJOKER);
 }
 
@@ -746,7 +746,6 @@ message.channel.sendMessage(clappy + " :clap: ");
 
 
 });
-
 
 
 
