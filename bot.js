@@ -22,7 +22,7 @@ if(message.content.toLowerCase().includes( ['bepsi'] ) || message.content.toLowe
  
 
 if (message.content.startsWith(prefix + "help"))  {
-message.channel.sendMessage(":sparkles: :oden: A  **J O K E R**  Bot   |   Prefix: `j!`\nCurrent commands: `joker` , `stab` , `clap` , `house` |  Command example: `j!joker`");
+message.channel.sendMessage(":bat: :black_joker:  A  **B A T J O K E S**  Bot   |   Prefix: `j!`\nCurrent commands: `joker` , `stab` , `clap` , `house` |  Command example: `j!joker`");
 }
 
 
