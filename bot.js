@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
   console.log('I am ready!');
-  bot.user.setPresence({ game: { name: 'with Bats <3  |  j!help', type: 0 } })
+  bot.user.setPresence({ game: { name: 'with Bats <3 [ j!help ]', type: 0 } })
 });
 
 const prefix ="j!"
