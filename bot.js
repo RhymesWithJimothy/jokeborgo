@@ -26,9 +26,9 @@ message.channel.sendMessage(":bat: :black_joker:  A  **B A T J O K E S**  Bot   
 }
 
 
-if (message.content.toLowerCase().startsWith(prefix + "stab <@!")) {
-  var odene= message.cleanContent.replace("j!stab @", "")
-  message.channel.sendMessage( ":knife:  |  **" + message.author.username + "** has stabbed **" + odene + "** !");
+if (message.content.toLowerCase().startsWith(prefix + "stab")) {
+  var odene= message.mentions.members.first()
+  message.channel.sendMessage( ":knife:  |  **" + message.author.username + "** has stabbed " + odene + " !");
 }
 
 
