@@ -26,7 +26,7 @@ if(message.content.toLowerCase().includes( ['bepsi'] ) || message.content.toLowe
 var randomgun =  [":boom::gun:",
 ":boom::gun:",
 "<a:loading:436659448446976010>:gun:",
-"<a:rainbOOM:439130744296701952><:rainbow_sparkle_gun:421211924840316938>",
+"<a:rainbOOM:439130744296701952><:gunbutrainbow:439274373590024202>",
 "<:BANGO:439181687759306752><:gunbutjokers:439271523631759361>"]  
 
 var randomgunmessage =  ["Looks like you have been **shot**. ʜᴀHA *!*",
