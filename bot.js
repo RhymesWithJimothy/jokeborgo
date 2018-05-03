@@ -38,7 +38,7 @@ var randomgunmessage =  ["Looks like you have been **shot**. ʜᴀHA *!*",
 var numberofgun = randomgun.length - 1;
 var countgun = Math.round(Math.random() * (numberofgun - 1) + 1)
  
-   if(message.content.toLowerCase().startsWith(prefix + "gun")){
+   if(message.content.toLowerCase().startsWith(prefix + "gun") || message.content.toLowerCase().startsWith(prefix + "shoot") ){
        
     message.channel.sendMessage(":gun:")
    
@@ -80,6 +80,143 @@ message.channel.sendMessage("┏┓\n┃┃╱╲ In this \n┃╱╱╲╲ hous
 }
 
 
+var randombtass01e02pics = ["https://i.imgur.com/eXEYd6u.jpg",
+"https://i.imgur.com/flWMuLJ.jpg",
+"https://i.imgur.com/p00nJS0.jpg",
+"https://i.imgur.com/2gnYdDe.jpg",
+"https://i.imgur.com/EBOFkWn.jpg",
+"https://i.imgur.com/2Z8Vxs0.jpg",
+"https://i.imgur.com/QliMp0p.jpg",
+"https://i.imgur.com/uWWnitJ.jpg",
+"https://i.imgur.com/yc4PnZr.jpg",
+"https://i.imgur.com/Q9t35nt.jpg",
+"https://i.imgur.com/vVJLG5E.jpg",
+"https://i.imgur.com/Uhg4cii.jpg",
+"https://i.imgur.com/GUSAS7y.jpg",
+"https://i.imgur.com/zmoWQOu.jpg",
+"https://i.imgur.com/m0Y8RV1.jpg",
+"https://i.imgur.com/bs824sz.jpg",
+"https://i.imgur.com/VhD2P4z.jpg",
+"https://i.imgur.com/GvrtVRH.jpg",
+"https://i.imgur.com/pImHy7c.jpg",
+"https://i.imgur.com/KtHwk4a.jpg",
+"https://i.imgur.com/XtrmNlv.jpg",
+"https://i.imgur.com/ld1qoaN.jpg",
+"https://i.imgur.com/ENaYUdW.jpg",
+"https://i.imgur.com/DDu2FhE.jpg",
+"https://i.imgur.com/1TdCsPb.jpg",
+"https://i.imgur.com/8rBIcI6.jpg",
+"https://i.imgur.com/G9TEWBO.jpg",
+"https://i.imgur.com/07YolXN.jpg",
+"https://i.imgur.com/jPCVsmU.jpg",
+"https://i.imgur.com/6KRPgoE.jpg",
+"https://i.imgur.com/WKIjEdZ.jpg",
+"https://i.imgur.com/x1QuMHo.jpg",
+"https://i.imgur.com/UdBritT.jpg",
+"https://i.imgur.com/JXGZOGQ.jpg",
+"https://i.imgur.com/kM110iV.jpg",
+"https://i.imgur.com/JIgPLxw.jpg",
+"https://i.imgur.com/nlkYhUZ.jpg",
+"https://i.imgur.com/3Ga1Pvh.jpg",
+"https://i.imgur.com/DO3Scxv.jpg",
+"https://i.imgur.com/sYxET3x.jpg",
+"https://i.imgur.com/tIYbP5A.jpg",
+"https://i.imgur.com/UC6KUJa.jpg",
+"https://i.imgur.com/KHhiR0Z.jpg",
+"https://i.imgur.com/7QEwi5a.jpg",
+"https://i.imgur.com/BbXHJpv.jpg",
+"https://i.imgur.com/tneyB8q.jpg",
+"https://i.imgur.com/XMJkgjf.jpg",
+"https://i.imgur.com/PcNLgSU.jpg",
+"https://i.imgur.com/suAAYju.jpg",
+"https://i.imgur.com/MVyMxSf.jpg",
+"https://i.imgur.com/jpgpvtj.jpg",
+"https://i.imgur.com/XS9hRWV.jpg",
+"https://i.imgur.com/B7Dx90l.jpg",
+"https://i.imgur.com/ZMiRbfs.jpg",
+"https://i.imgur.com/AiKnLTQ.jpg",
+"https://i.imgur.com/vShc4ov.jpg",
+"https://i.imgur.com/COPIPYN.jpg",
+"https://i.imgur.com/0ieeDtg.jpg",
+"https://i.imgur.com/biPThSX.jpg",
+"https://i.imgur.com/ngkb7dq.jpg",
+"https://i.imgur.com/ElWJMMx.jpg",
+"https://i.imgur.com/ldumvbg.jpg",
+"https://i.imgur.com/JH1WVvs.jpg",
+"https://i.imgur.com/kPot4Ww.jpg",
+"https://i.imgur.com/crWSGzV.jpg",
+"https://i.imgur.com/tDWKXZk.jpg",
+"https://i.imgur.com/3UAby8K.jpg",
+"https://i.imgur.com/zgLCPeK.jpg",
+"https://i.imgur.com/vbb8rQc.jpg",
+"https://i.imgur.com/imjhiOX.jpg",
+"https://i.imgur.com/Omzbh2Y.jpg",
+"https://i.imgur.com/vFDDYOb.jpg",
+"https://i.imgur.com/70LxJpI.jpg",
+"https://i.imgur.com/iZG2SpW.jpg",
+"https://i.imgur.com/sYJYmNs.jpg",
+"https://i.imgur.com/iDE33PG.jpg",
+"https://i.imgur.com/i1Bn5uS.jpg",
+"https://i.imgur.com/QZzmsdP.jpg",
+"https://i.imgur.com/1pmlSJU.jpg",
+"https://i.imgur.com/GatPEwk.jpg",
+"https://i.imgur.com/ZZ5j9yi.jpg",
+"https://i.imgur.com/mvHjTaY.jpg",
+"https://i.imgur.com/UziAgXR.jpg",
+"https://i.imgur.com/eWOKGin.jpg",
+"https://i.imgur.com/C5Czv2v.jpg",
+"https://i.imgur.com/5IkldYt.jpg",
+"https://i.imgur.com/Gd0MRYo.jpg",
+"https://i.imgur.com/VgyPwTD.jpg",
+"https://i.imgur.com/oer3PiC.jpg",
+"https://i.imgur.com/u5Zavx6.jpg",
+"https://i.imgur.com/4WXlSls.jpg",
+"https://i.imgur.com/h9NosE3.jpg",
+"https://i.imgur.com/INMPT7Q.jpg",
+"https://i.imgur.com/biFCUAF.jpg",
+"https://i.imgur.com/58XX15Y.jpg",
+"https://i.imgur.com/FQyg5Kt.jpg",
+"https://i.imgur.com/6mCIMzx.jpg",
+"https://i.imgur.com/lsVzAcL.jpg",
+"https://i.imgur.com/e4lm1QL.jpg",
+"https://i.imgur.com/FM79HQF.jpg",
+"https://i.imgur.com/wKkv0yl.jpg",
+"https://i.imgur.com/zYciNQs.jpg",
+"https://i.imgur.com/MpUF4fw.jpg",
+"https://i.imgur.com/9Nge01v.jpg",
+"https://i.imgur.com/9xKxSlS.jpg",
+"https://i.imgur.com/nuI3p6P.jpg",
+"https://i.imgur.com/WcGHj1W.jpg",
+"https://i.imgur.com/Svv3JTo.jpg",
+"https://i.imgur.com/QGE5FDj.jpg",
+"https://i.imgur.com/ownippb.jpg",
+"https://i.imgur.com/HO1UAr1.jpg",
+"https://i.imgur.com/OojgI2g.jpg",
+"https://i.imgur.com/fkeWRLp.jpg",
+"https://i.imgur.com/aXPKHzw.jpg",
+"https://i.imgur.com/fcgOiEG.jpg",
+"https://i.imgur.com/YdRGePj.jpg",
+"https://i.imgur.com/KgM6dGa.jpg",
+"https://i.imgur.com/RSZcdgu.jpg",
+"https://i.imgur.com/pWlltt0.jpg",
+"https://i.imgur.com/UnsZiT6.jpg",
+"https://i.imgur.com/uWlNI3N.jpg",
+"https://i.imgur.com/R2sjJ31.jpg",
+"https://i.imgur.com/bdGAY1k.jpg",
+"https://i.imgur.com/JAyc7dD.jpg",
+"https://i.imgur.com/GdFKJkl.jpg",
+"https://i.imgur.com/v7aLtYP.jpg",
+"https://i.imgur.com/Xz2F2Ld.jpg",
+"https://i.imgur.com/P0jXFYz.jpg",
+"https://i.imgur.com/blQ5h4n.jpg",
+"https://i.imgur.com/rXqNpt9.jpg",
+"https://i.imgur.com/iX3FS1G.jpg",
+"https://i.imgur.com/ozntoSn.jpg",
+"https://i.imgur.com/wlWwBL4.jpg",
+"https://i.imgur.com/OOCUjUP.jpg",
+"https://i.imgur.com/bjON4VR.jpg",
+"https://i.imgur.com/ABLiBk4.jpg"];  
+  
     
 var randombatmanninjapic = ["https://i.imgur.com/OLQZDTA.png",
 "https://i.imgur.com/KAAwiIx.jpg",
@@ -757,24 +894,43 @@ var randombatmanninjapic = ["https://i.imgur.com/OLQZDTA.png",
 var numberofninjapics = randombatmanninjapic.length - 1;
 var countninjabatman = Math.round(Math.random() * (numberofninjapics - 1) + 1)
 
-
+var numberofbtass01e02pics = randombtass01e02pics.length - 1;
+var countbtass01e02 = Math.round(Math.random() * (numberofbtass01e02pics - 1) + 1)
  
 const BATMANNINJAJOKER = new Discord.RichEmbed()
   .setColor(0x36393E)
   .setFooter("© Batman Ninja 2018")
   .setImage(randombatmanninjapic[countninjabatman]);
   
+const BATMANBTASS01E02 = new Discord.RichEmbed()
+  .setColor(0x36393E)
+  .setFooter("© BTAS - Christmas with the Joker")
+  .setImage(randombtass01e02pics[countbtass01e02]);
   
+  var imagenes = [BATMANNINJAJOKER,
+    BATMANNINJAJOKER,
+    BATMANBTASS01E02];
+
+ var countrandomjoker = Math.round(Math.random() * (2 - 1) + 1)  
    
-  if (message.content.startsWith(prefix + "joker"))  {
+  if (message.content.toLowerCase().startsWith(prefix + "joker"))  {
     
-       if (message.content.includes("batman ninja"))  {
+       if (message.content.toLowerCase().includes("batman ninja"))  {
        
-        if (message.content.includes("number"))  {
+        if (message.content.toLowerCase().includes("number"))  {
             message.channel.sendMessage("The **Batman Ninja** category currently has **" + numberofninjapics + "** Joker pictures") }
         else message.channel.sendEmbed(BATMANNINJAJOKER) 
        }   
-    else message.channel.sendEmbed(BATMANNINJAJOKER);
+    
+     else if (message.content.toLowerCase().includes("btas"))  {
+       
+        if (message.content.toLowerCase().includes("number"))  {
+            message.channel.sendMessage("The **BTAS** category currently has **" + numberofbtass01e02pics + "** Joker pictures") }
+        else message.channel.sendEmbed(BATMANBTASS01E02) 
+       } 
+    
+    
+    else message.channel.sendEmbed(imagenes[countrandomjoker]);
 }
 
 
